@@ -1,6 +1,6 @@
 /**
- * 100296. Permutation Difference between Two Strings
- * url: https://leetcode.com/contest/weekly-contest-397/problems/permutation-difference-between-two-strings/
+ * 3146. Permutation Difference between Two Strings
+ * url: https://leetcode.com/problems/permutation-difference-between-two-strings/description/
  */
 
 /**
