@@ -1,6 +1,9 @@
 /**
  * 3146. Permutation Difference between Two Strings
- * url: https://leetcode.com/problems/permutation-difference-between-two-strings/description/
+ * URL: https://leetcode.com/problems/permutation-difference-between-two-strings/description/
+ * Difficulty: Easy
+ * Topic: ?
+ * Date: 2024.05.12(SUN)
  */
 
 /**
