@@ -1,5 +1,5 @@
 /**
- * 100274. Taking Maximum Energy From the Mystic Dungeon / 3147. Taking Maximum Energy From the Mystic Dungeon
+ * 3147. Taking Maximum Energy From the Mystic Dungeon
  * url: https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/description/
  * Date: 2024.05.12(SUN)
  * Topic: dynamic programming
