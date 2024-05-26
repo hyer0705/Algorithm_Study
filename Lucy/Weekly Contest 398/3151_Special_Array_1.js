@@ -28,7 +28,7 @@ var isArraySpecial = function (nums) {
 
     // prev 변수와 curr 변수의 parity가 다르면 prev 변수 재할당
     if (prev !== curr) prev = curr;
-    // prev 변수와 curr 변수의 parity가 다를 경우 special array의 기준에 맞지 않으므로 false return
+    // prev 변수와 curr 변수의 parity가 같은 경우 special array의 기준에 맞지 않으므로 false return
     else {
       res = false;
       return res;
