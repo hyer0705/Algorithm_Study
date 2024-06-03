@@ -1,7 +1,7 @@
 /**
  * 3168. Minimum Number of Chairs in a Waiting Room
  * URL: https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/
- * TOPIC:
+ * TOPIC: String
  * DIFFICULTY: EASY
  * DATE: 2024.06.03(MUN)
  */
