@@ -31,6 +31,9 @@ LeetCode 'Weekly Contest' 참여하여 매주 올라오는 문제들을 풀이�
 | 4주차 | 24.06.04~24.06.10 | -         | [Minimum Number of Chairs in a Waiting Room](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/)                       | Easy   |
 | 4주차 | 24.06.04~24.06.10 | -         | [Count Days Without Meetings](https://leetcode.com/problems/count-days-without-meetings/)                                                     | Medium |
 | 4주차 | 24.06.04~24.06.10 | -         | [Lexicographically Minimum String After Removing Stars](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/) | Medium |
+| 5주차 | 24.06.10~24.06.16 | -         | [Find the Child Who Has the Ball After K Seconds](https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/)             | Easy   |
+| 5주차 | 24.06.10~24.06.16 | -         | [Find the N-th Value After K Seconds](https://leetcode.com/problems/find-the-n-th-value-after-k-seconds/)                                     | Medium |
+| 5주차 | 24.06.10~24.06.16 | -         | [Maximum Total Reward Using Operations I](https://leetcode.com/problems/maximum-total-reward-using-operations-i/)                             | Medium |
 
 ## 📁Repository 폴더 구조
 
