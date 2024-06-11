@@ -2,7 +2,7 @@
  * 3178. Find the Child Who Has the Ball After K Seconds
  * URL: https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/
  * DIFFICULTY: Easy
- * TOPIC:
+ * TOPIC: Math, Simulation
  * DATE: 2024.06.10(MON)~
  */
 
