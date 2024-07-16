@@ -1,7 +1,7 @@
 /**
  * 3212. Count Submatrices With Equal Frequency of X and Y
  *
- * url: https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/
+ * url: https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/
  * difficulty: Medium
  * topic: Array, Matrix, Prefix Sum
  * date: 2024.07.15(MON)~
