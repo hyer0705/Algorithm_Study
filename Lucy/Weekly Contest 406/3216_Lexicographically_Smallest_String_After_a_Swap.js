@@ -15,9 +15,13 @@ const isGreaterThan = (prevDigit, nextDigit) => prevDigit > nextDigit;
  * @return {string}
  */
 var getSmallestString = function (s) {
+  // swap한 횟수를 저장하는 변수
   let swapCnt = 0;
+
+  // s 복사
   let res = s.slice(0);
 
+  // 문자열 s 순회, swapCnt가 1이 되면 순회 중단
   for (let i = 1; swapCnt < 1 && i < s.length; i++) {
     const [prev, next] = [s[i - 1], s[i]];
 
