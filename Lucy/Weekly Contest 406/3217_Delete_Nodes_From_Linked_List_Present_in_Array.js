@@ -31,13 +31,20 @@
  * @return {ListNode}
  */
 var modifiedList = function (nums, head) {
+  // head 링크드리스트를 순회할 때 사용하는 변수 currNode
   let currNode = head;
+
+  // nums 배열 요소에 있는 요소를 제거한 후의 링크드 리스트를 담아두는 변수 resLinkedList
   const resLinkedList = new ListNode(-1);
+  // resLinkedList 변수에 담긴 링크드 리스트의 마지막 요소를 가리키는 변수 tempNode
   let tempNode = resLinkedList;
 
+  // 자료구조 Set을 사용하여 nums 배열에서 중복된 요소를 제거한 후 변수 numsSet에 저장
   const numsSet = new Set(nums);
 
+  // head 링크드리스트 순회
   while (currNode) {
+    // numsSet에 없는 노드만 tempNode를 사용하여 resLinkedList에 추가
     if (!numsSet.has(currNode.val)) {
       tempNode.next = new ListNode(currNode.val);
       tempNode = tempNode.next;
