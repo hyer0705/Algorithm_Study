@@ -27,11 +27,6 @@ public class Solution
 	// 참고한 사이트 : https://loosie.tistory.com/267
 	private List<int> GetPrimes(int num)
 	{
-		// num : 101
-		// i > 1, 2, 3, 4, ,..., 97, 98, 99, 
-		// i = 10;
-		// 1 ~ 11로 나누어 떨어지는지를 계산 13 -> 169
-
 		bool[] isPrime = new bool[num + 1];
 		for (int i = 2; i <= num; i++)
 			isPrime[i] = true;
