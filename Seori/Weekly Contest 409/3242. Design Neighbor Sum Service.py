@@ -3,6 +3,7 @@ class neighborSum:
     def __init__(self, grid: List[List[int]]):
         self.grid = grid
 
+    # [A] 상하좌우에 인접한 값의 합을 구하는 adjacentSum 함수를 정의한다.
     def adjacentSum(self, value: int) -> int:
         grid = self.grid
         i, j = 0, 0
@@ -27,6 +28,7 @@ class neighborSum:
 
         return adjacentSum
 
+    # [B] 대각선에 인접한 값의 합을 구하는 diagonalSum 함수를 정의한다.
     def diagonalSum(self, value: int) -> int:
         grid = self.grid
         i, j = 0, 0
