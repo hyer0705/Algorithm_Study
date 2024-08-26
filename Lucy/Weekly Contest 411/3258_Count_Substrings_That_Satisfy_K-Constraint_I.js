@@ -16,13 +16,22 @@ var countKConstraintSubstrings = function (s, k) {
   const splited = s.split("");
   let cnt = 0;
 
-  for (let window = 1; window <= splited.length; window++) {
-    for (let i = 0; i < splited.length && i + window <= splited.length; i++) {
-      const substring = splited.slice(i, i + window);
+  // substring의 길이를 1부터 s의 길이까지 반복
+  for (let subStrLen = 1; subStrLen <= splited.length; subStrLen++) {
+    // substring을 비교하는 반복문
+    for (
+      let i = 0;
+      i < splited.length && i + subStrLen <= splited.length;
+      i++
+    ) {
+      const substring = splited.slice(i, i + subStrLen);
 
+      // 0 갯수 카운트
       const oneCnt = substring.filter((n) => n === "1").length;
+      // 1 갯수 카운트
       const zeroCnt = substring.filter((n) => n === "0").length;
 
+      // K-Constraints에 해당되는지 확인
       if (zeroCnt <= k || oneCnt <= k) cnt++;
     }
   }
