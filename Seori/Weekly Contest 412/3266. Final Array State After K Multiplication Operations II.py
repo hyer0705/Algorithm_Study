@@ -1,3 +1,23 @@
+# 틀렸던 풀이 방법
+class Solution:
+    def getFinalState(self, nums: List[int], k: int, multiplier: int) -> List[int]:
+        MODULO = 10 ** 9 + 7
+        heap_nums = []
+        n = len(nums)
+        for i in range(n):
+            heapq.heappush(heap_nums, (nums[i], i))
+        
+        for _ in range(k):
+            heapq.heappushpop(heap_nums, (heap_nums[0][0] * multiplier, heap_nums[0][1]))
+        
+        result = [0] * n
+        for i in range(n):
+            num, index = heapq.heappop(heap_nums)
+            result[index] = num % MODULO
+        return result
+
+
+# 모범 답안 풀이 방법
 class Solution:
     def getFinalState(self, nums: List[int], k: int, multiplier: int) -> List[int]:
         
