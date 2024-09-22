@@ -1,5 +1,6 @@
 ﻿
-// 해당 풀이 실패. 입력값이 많아지면 Time Limit Exceeded 발생( 513 / 545 testcases passed )
+// backtracking의 개념을 사용하여 문제를 풀이해보았지만 풀이 실패. 
+// 입력값이 많아지면 Time Limit Exceeded 발생( 513 / 545 testcases passed )
 
 public class Solution
 {
