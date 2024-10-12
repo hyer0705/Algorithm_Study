@@ -20,7 +20,7 @@
     "fsharp": "fsi",
     "csharp": "scriptcs",
     "vbscript": "cscript //Nologo",
-    "typescript": "node_modules//.bin//ts-node",
+    "typescript": "Lucy//node_modules//.bin//ts-node",
     "coffeescript": "coffee",
     "scala": "scala",
     "swift": "swift",
