@@ -2,15 +2,15 @@ class Solution {
 public:
     string reverseWords(string s) {
         string word;
-        vector<string> wordVec; // list¿Í °°Àº ÀÚ·á±¸Á¶.
+        vector<string> wordVec; // listì™€ ê°™ì€ ìë£Œêµ¬ì¡°.
 
         for (int i = 0; i < s.size(); i++)
         {
-            // °ø¹é¹®ÀÚ°¡ ¾Æ´Ï¶ó¸é word ¹®ÀÚ¿­ º¯¼ö¿¡ ´©Àû.
+            // ê³µë°±ë¬¸ìê°€ ì•„ë‹ˆë¼ë©´ word ë¬¸ìì—´ ë³€ìˆ˜ì— ëˆ„ì .
             if (s[i] != ' ')
             {
                 word += s[i];
-            } // °ø¹é ¹®ÀÚÀÌ°í, word°¡ ºó °ªÀÌ ¾Æ´Ï¶ó¸é wordVec¿¡ Ãß°¡.
+            } // ê³µë°± ë¬¸ìì´ê³ , wordê°€ ë¹ˆ ê°’ì´ ì•„ë‹ˆë¼ë©´ wordVecì— ì¶”ê°€.
             else if (word.empty() == false)
             {
                 wordVec.push_back(word);
@@ -18,11 +18,11 @@ public:
             }
         }
 
-        // word¿¡ ´ã±ä ¸Ç ¸¶Áö¸·¸¦ wordVec¿¡ Ãß°¡.
+        // wordì— ë‹´ê¸´ ë§¨ ë§ˆì§€ë§‰ë¥¼ wordVecì— ì¶”ê°€.
         if (word.empty() == false)
             wordVec.push_back(word);
 
-        // wordVec¿¡ ´ëÇØ¼­ ½º¿Ò ÁøÇà.
+        // wordVecì— ëŒ€í•´ì„œ ìŠ¤ì™‘ ì§„í–‰.
         int n = wordVec.size();
         for (int i = 0; i < n / 2; i++)
         {
@@ -31,7 +31,7 @@ public:
             wordVec[n - 1 - i] = temp;
         }
 
-        // °ø¹é¹®ÀÚ¸¦ ÀÌ¿ëÇÏ¿© wordVec¿¡ ÀÖ´Â ¹®ÀÚ¿­µé ¿¬°áÇØÁÖ±â.
+        // ê³µë°±ë¬¸ìë¥¼ ì´ìš©í•˜ì—¬ wordVecì— ìˆëŠ” ë¬¸ìì—´ë“¤ ì—°ê²°í•´ì£¼ê¸°.
         string result = wordVec[0];
         for (int i = 1; i < wordVec.size(); i++)
         {

@@ -4,14 +4,14 @@ public:
 
 		const int EMPTY = 0;
 		const int NOT_EMPTY = 1;
-		const int JUMP_INDEX = 2; // ÇöÀç À§Ä¡¿¡ ³õ°Ô µÇ¸é ÀÎÁ¢ÇÑ °÷¿¡ ³õÀ» ¼ö ¾øÀ¸¹Ç·Î, 2¸¸Å­ Á¡ÇÁ.
+		const int JUMP_INDEX = 2; // í˜„ìž¬ ìœ„ì¹˜ì— ë†“ê²Œ ë˜ë©´ ì¸ì ‘í•œ ê³³ì— ë†“ì„ ìˆ˜ ì—†ìœ¼ë¯€ë¡œ, 2ë§Œí¼ ì í”„.
 
 		int currIndex = 0;
 
-		// iÀÎµ¦½º°¡ ¿ä¼Ò ³¡±îÁö ¼øÈ¸ÇÏÁö ¾Ê¾Ò°í, nÀÇ °ªÀÌ ¾ÆÁ÷ ³²¾ÆÀÖ´Ù¸é °è¼Ó ·çÇÁ¸¦ µ¹¸°´Ù.
+		// iì¸ë±ìŠ¤ê°€ ìš”ì†Œ ëê¹Œì§€ ìˆœíšŒí•˜ì§€ ì•Šì•˜ê³ , nì˜ ê°’ì´ ì•„ì§ ë‚¨ì•„ìžˆë‹¤ë©´ ê³„ì† ë£¨í”„ë¥¼ ëŒë¦°ë‹¤.
 		while (currIndex < flowerbed.size() && n > 0)
 		{
-			// currIndex¿¡ ²ÉÀÌ ³õ¿©Á® ÀÖ´Ù¸é continue;
+			// currIndexì— ê½ƒì´ ë†“ì—¬ì ¸ ìžˆë‹¤ë©´ continue;
 			if (flowerbed[currIndex] == NOT_EMPTY)
 			{
 				currIndex++;
@@ -21,12 +21,12 @@ public:
 			int prevIndex = currIndex - 1;
 			int nextIndex = currIndex + 1;
 
-			// prevIndex¿Í nextIndex°¡ ¹è¿­ ¹üÀ§¸¦ ¹þ¾î³µ´Ù¸é currIndex¿¡ ²ÉÀ» ³õ´Â °Í¿¡´Â ¿µÇâÀ» ¹ÌÄ¡Áö ¾ÊÀ¸¹Ç·Î,
-			// ³õÀ» ¼ö ÀÖ´Ù´Â Ã³¸®¸¦ À§ÇØ ÀÓÀÇ·Î currIndex°ªÀ» ³Ö¾îÁØ´Ù.
+			// prevIndexì™€ nextIndexê°€ ë°°ì—´ ë²”ìœ„ë¥¼ ë²—ì–´ë‚¬ë‹¤ë©´ currIndexì— ê½ƒì„ ë†“ëŠ” ê²ƒì—ëŠ” ì˜í–¥ì„ ë¯¸ì¹˜ì§€ ì•Šìœ¼ë¯€ë¡œ,
+			// ë†“ì„ ìˆ˜ ìžˆë‹¤ëŠ” ì²˜ë¦¬ë¥¼ ìœ„í•´ ìž„ì˜ë¡œ currIndexê°’ì„ ë„£ì–´ì¤€ë‹¤.
 			if (prevIndex < 0) prevIndex = currIndex;
 			if (nextIndex >= flowerbed.size()) nextIndex = currIndex;
 
-			// ³õÀ» ¼ö ÀÖ´Ù.
+			// ë†“ì„ ìˆ˜ ìžˆë‹¤.
 			if (flowerbed[prevIndex] == EMPTY &&
 				flowerbed[nextIndex] == EMPTY)
 			{
@@ -34,7 +34,7 @@ public:
 				n--;
 				currIndex += JUMP_INDEX;
 			}
-			else //³õÀ» ¼ö ¾øÀ¸¸é ´ÙÀ½ ÀÎµ¦½º Ã¼Å©.
+			else //ë†“ì„ ìˆ˜ ì—†ìœ¼ë©´ ë‹¤ìŒ ì¸ë±ìŠ¤ ì²´í¬.
 			{
 				currIndex++;
 			}

@@ -2,16 +2,16 @@ class Solution {
 public:
     string reverseVowels(string s) {
 
-        // unordered_setÀº ÇØ½Ã Å×ÀÌºíÀ» ±â¹İÀ¸·Î µ¿ÀÛÇÏ´Â ÀÚ·á±¸Á¶.
+        // unordered_setì€ í•´ì‹œ í…Œì´ë¸”ì„ ê¸°ë°˜ìœ¼ë¡œ ë™ì‘í•˜ëŠ” ìë£Œêµ¬ì¡°.
         unordered_set<char> vowels = { 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U' };
 
         int left = 0;
         int right = s.size() - 1;
 
-        // left¿Í rightÀÇ µÎ ÀÎµ¦½º¸¦ ÅëÇØ ¼­·Î ¸ğÀ½À» Ã£¾ÒÀ» °æ¿ì ½º¿Ò.
+        // leftì™€ rightì˜ ë‘ ì¸ë±ìŠ¤ë¥¼ í†µí•´ ì„œë¡œ ëª¨ìŒì„ ì°¾ì•˜ì„ ê²½ìš° ìŠ¤ì™‘.
         while (left < right)
         {
-            // vowels.end()´Â ¸¶Áö¸· ¿ä¼ÒÀÇ ´ÙÀ½À» °¡¸®Å°´Â ¹İº¹ÀÚ.
+            // vowels.end()ëŠ” ë§ˆì§€ë§‰ ìš”ì†Œì˜ ë‹¤ìŒì„ ê°€ë¦¬í‚¤ëŠ” ë°˜ë³µì.
             while (left < right && vowels.find(s[left]) == vowels.end())
                 left++;
 
