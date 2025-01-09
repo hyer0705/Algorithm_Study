@@ -51,17 +51,17 @@ function rollDice(dice, combination) {
   return maxDice;
 }
 
-function calculateSum(dice, indices) {
+function calculateSum(dice, diceIndices) {
   const arr = [];
 
-  const recursive = (level, sum) => {
-    if (level === indices.length) {
+  const recursive = (currentDiceIndex, sum) => {
+    if (currentDiceIndex === diceIndices.length) {
       arr.push(sum);
       return;
     }
 
-    for (const face of dice[indices[level] - 1]) {
-      recursive(level + 1, sum + face);
+    for (const face of dice[diceIndices[currentDiceIndex] - 1]) {
+      recursive(currentDiceIndex + 1, sum + face);
     }
   };
 
