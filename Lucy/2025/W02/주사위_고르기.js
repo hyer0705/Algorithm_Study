@@ -11,6 +11,7 @@ function combine(n, r) {
   const backtrack = (start, result) => {
     if (result.length === r) {
       results.push([...result]);
+      return;
     }
 
     for (let i = start; i < n + 1; i++) {
