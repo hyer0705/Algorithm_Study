@@ -4,7 +4,7 @@
 
 - URL: https://leetcode.com/problems/equal-row-and-column-pairs/description/
 - Level: Medium
-- Topic: Array, Hash Table, Matrix, Simulation
+- Topics: Array, Hash Table, Matrix, Simulation
 
 ## 문제 접근
 
@@ -83,7 +83,7 @@ Hash Map을 활용하여 행과 열의 패턴을 비교하는 방식으로 문�
 
 이 문제를 해결하기 위해 Array.prototype.join() 메서드에 임의의 문자 "|"를 구분자로 사용해 숫자 패턴을 Key 값으로 구분하는 방법을 떠올렸습니다. 이를 적용한 후, 모든 테스트 케이스를 통과할 수 있었습니다.
 
-## 출처
+## 참고 자료
 
 - [Get column from a two dimensional array - StackOverflow (2차원 배열에서 같은 행에 나오는 숫자들 추출하는 방법)](https://stackoverflow.com/questions/7848004/get-column-from-a-two-dimensional-array)
 - [Map - MDN Docs](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Map)
