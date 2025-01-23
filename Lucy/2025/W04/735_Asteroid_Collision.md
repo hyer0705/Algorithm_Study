@@ -115,3 +115,8 @@ asteroids = [-2, -1, 1, 2] 테스트 케이스에서 오류가 발생했습니�
 이 조건을 충족하지 않으면 충돌 검사를 생략하고 그대로 진행하도록 로직을 수정했습니다.
 
 이후에, 테스트 케이스가 틀렸다는 결과를 받을 때마다 디버깅 과정을 반복해서 문제를 해결할 수 있었습니다. Stack이어서 마음 편히 접근했지만 생각보다 까다로운 문제여서 시간을 잡아먹은 문제였습니다.
+
+## 참고 자료
+
+- [Math.abs()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/abs)
+- [전개 구문](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
