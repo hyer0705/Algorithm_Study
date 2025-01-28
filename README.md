@@ -2,6 +2,24 @@
 
 LeetCode 'Weekly Contest' 참여하여 매주 올라오는 문제들을 풀이하며 알고리즘을 공부합니다.
 
+## ✨운영 방식
+
+### 2025년 운영 방식
+
+- 기간: 2025년 1월 ~ 현재
+- 활동 내용
+  - 매주 프로그래머스 카카오 인턴십 문제 1개 풀이
+  - LeetCode75 문제 중 2개 풀이
+  - 매주 목요일 오후 9시 디스코드에서 풀이 공유 및 토론 진행
+
+### 2024년 운영 방식
+
+- 기간: 2024년 5월 ~ 2024년 12월
+- 활동 내용
+  - 매주 LeetCode Weekly Contest 문제 3개 이상 풀이
+  - 1주일 동안 문제 풀이 후, PR 작성
+  - PR을 통해 코드 리뷰 진행
+
 ## ✅참여 방법
 
 1. 이 저장소를 `fork` 합니다.
@@ -12,61 +30,23 @@ LeetCode 'Weekly Contest' 참여하여 매주 올라오는 문제들을 풀이�
 6. 다른 사람들의 PR을 보고 자유롭게 코드리뷰를 합니다.
 7. ⭐주의⭐ 기존 폴더를 지우면 안됩니다. 개인 폴더 내부만 수정해주세요!😊
 
-## ✅스터디 문제
-
-- LeetCode 'Weekly Contest' 에 올라오는 문제 풀이: [LeetCode Contest Link](https://leetcode.com/contest/)
-- 'Weekly Contest' `register` 필수!
-
-| 주차  | 날짜              | 문제 유형 | 문제                                                                                                                                          | 난이도 |
-| ----- | ----------------- | --------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| 1주차 | 24.05.12~24.05.17 | -         | [Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/description/)           | Easy   |
-| 1주차 | 24.05.12~24.05.17 | -         | [Taking Maximum Energy From the Mystic Dungeon](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/description/)     | Medium |
-| 1주차 | 24.05.12~24.05.17 | -         | [Maximum Difference Score in a Grid](https://leetcode.com/contest/weekly-contest-397/problems/maximum-difference-score-in-a-grid/)            | Medium |
-| 2주차 | 24.05.18~24.05.29 | -         | [Special Array 1](https://leetcode.com/problems/special-array-i/description/)                                                                 | Easy   |
-| 2주차 | 24.05.18~24.05.29 | -         | [Special Array 2](https://leetcode.com/problems/special-array-ii/description/)                                                                | Medium |
-| 2주차 | 24.05.18~24.05.29 | -         | [Sum of Digit Differences of All Pairs](https://leetcode.com/problems/sum-of-digit-differences-of-all-pairs/description/)                     | Medium |
-| 3주차 | 24.05.30~24.06.04 | -         | [Find the Number of Good Pairs 1](https://leetcode.com/problems/find-the-number-of-good-pairs-i/description/)                                 | Easy   |
-| 3주차 | 24.05.30~24.06.04 | -         | [String Compression 3](https://leetcode.com/problems/string-compression-iii/description/)                                                     | Medium |
-| 3주차 | 24.05.30~24.06.04 | -         | [Find the Number of Good Pairs 2](https://leetcode.com/problems/find-the-number-of-good-pairs-ii/description/)                                | Medium |
-| 4주차 | 24.06.04~24.06.10 | -         | [Minimum Number of Chairs in a Waiting Room](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/)                       | Easy   |
-| 4주차 | 24.06.04~24.06.10 | -         | [Count Days Without Meetings](https://leetcode.com/problems/count-days-without-meetings/)                                                     | Medium |
-| 4주차 | 24.06.04~24.06.10 | -         | [Lexicographically Minimum String After Removing Stars](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/) | Medium |
-| 5주차 | 24.06.10~24.06.16 | -         | [Find the Child Who Has the Ball After K Seconds](https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/)             | Easy   |
-| 5주차 | 24.06.10~24.06.16 | -         | [Find the N-th Value After K Seconds](https://leetcode.com/problems/find-the-n-th-value-after-k-seconds/)                                     | Medium |
-| 5주차 | 24.06.10~24.06.16 | -         | [Maximum Total Reward Using Operations I](https://leetcode.com/problems/maximum-total-reward-using-operations-i/)                             | Medium |
-
 ## 📁Repository 폴더 구조
 
-- `Nickname` 또는 `Github ID`/contest name/source code(문제 번호, 문제 이름)
+- `Nickname` 또는 `Github ID`/contest name or week name/source code(문제 번호, 문제 이름)
 
-💡예시
-`Lucy/Weekly_Contest_396/3136_Valid_Word.js`
+💡예시 `Lucy/Weekly_Contest_396/3136_Valid_Word.js`
+
+💡예시 `Lucy/2025/W01/3136_Valid_Word.js`
 
 ## ✅Commit 규칙
 
 - "태그 : [플랫폼] {문제 번호\_문제 이름} {commit message}" 형태로 작성
 
-💡예시
-`✨feat : [LTC] 3136_Valid Word 문제 알고리즘 구현`
+💡예시 `✨feat : [LTC] 3136_Valid Word 문제 알고리즘 구현`
 
-🤔이모지 및 태그
-| 이모지 | 태그 | 설명 |
-| ----- | ----- | ---------- |
-| ✨ | feat | 새로운 기능 추가 |
-| 🐛 | fix | 버그 수정 |
-| ♻️ | refactor | 코드 리팩토링 |
-| ✏️ | comment | 주석 추가(코드 변경 X) 혹은 오타 수정 |
-| 📝 | docs | README와 같은 문서 수정 |
-| 🔀 | merge | merge |
-| 🚚 | rename | 파일, 폴더명 수정 혹은 이동 |
+🤔이모지 및 태그 | 이모지 | 태그 | 설명 | | ----- | ----- | ---------- | | ✨ | feat | 새로운 기능 추가 | | 🐛 | fix | 버그 수정 | | ♻️ | refactor | 코드 리팩토링 | | ✏️ | comment | 주석 추가(코드 변경 X) 혹은 오타 수정 | | 📝 | docs | README와 같은 문서 수정 | | 🔀 | merge | merge | | 🚚 | rename | 파일, 폴더명 수정 혹은 이동 |
 
-🤔플랫폼
-| 플랫폼 | 태그 |
-| ----- | ----- |
-| LeetCode | LTC |
-| 백준 | BOJ |
-| 프로그래머스 | PGS |
-| 기타 | ETC |
+🤔플랫폼 | 플랫폼 | 태그 | | ----- | ----- | | LeetCode | LTC | | 백준 | BOJ | | 프로그래머스 | PGS | | 기타 | ETC |
 
 ## ✅PR 규칙
 
