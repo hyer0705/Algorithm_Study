@@ -141,3 +141,12 @@ function predictPartyVictory(senate: string): string {
 하나의 queue를 사용한 풀이가 다른 사람보다 속도가 많이 느려서 개선해야 겠다고 생각했다. 다른 사람의 풀이를 참고해서 두 개의 queue와 `senate`문자열의 인덱스를 사용하여 풀이하는 방법을 알아냈다. runtime을 74ms 에서 15ms로 개선할 수 있었다.
 
 분명 Queue라는 자료구조는 First in First out 이라는 특징을 가지고 있는 걸 알고 있는데도 풀이를 떠올리지 못했다. Queue 유형의 문제를 쉬운 문제부터 다시 풀어보는 연습이 필요한 것 같다.
+
+## 참고자료
+
+- [전개 구문](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+- [Array.prototype.filter()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+- [Array.prototype.shift()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)
+- [Array.prototype.findIndex()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)
+- [Array.prototype.splice()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+- [datastructures-js/queue - GitHub](https://github.com/datastructures-js/queue/tree/v4.2.3)

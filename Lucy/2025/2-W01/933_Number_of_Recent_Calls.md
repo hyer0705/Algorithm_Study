@@ -74,3 +74,7 @@ class RecentCounter {
 ping 함수를 구현할 때는 클래스 변수로 queue를 정의하고, ping() 메서드가 호출될 때 매개변수 t 값을 queue에 추가했다. 이후 Array.prototype.filter() 메서드를 사용해 [t - 3000, t] 범위에 속하는 값들을 찾아내고, 그 개수를 반환하는 방식으로 구현했다.
 
 그런데 다른 사람들이 푼 코드를 보니, queue의 자료구조적 특성을 더 잘 활용한 방식이어서 이를 참고해 [t - 3000, t] 범위에 해당되지 않는 값은 dequeue() 동작을 해서 빼내고 queue에 남아있는 값들의 갯수를 반환하는 방식으로 구현했다. 이 경험을 통해 문제를 해결할 때 제공된 topics에 언급된 자료구조나 알고리즘을 최대한 활용하는 방법을 떠올리고 적용해보는 연습이 필요하다는 것을 느꼈다.
+
+## 참고자료
+
+- [Array.prototype.shift()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)
