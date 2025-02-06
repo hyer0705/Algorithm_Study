@@ -94,7 +94,8 @@ function predictPartyVictory(senate: string): string {
 
 #### 그림 설명
 
-![Image](https://github.com/user-attachments/assets/cd6d154f-d6df-483f-b6e2-fe832ba0cae8)
+![649-third](https://github.com/user-attachments/assets/f70c21f5-0097-455a-8904-753030eefe30)
+
 
 ```typescript
 function predictPartyVictory(senate: string): string {
