@@ -10,6 +10,22 @@
  * }
  */
 
+// 두 번째 풀이(모범답안 참고)
+function reverseList(head: ListNode | null): ListNode | null {
+  let current = head;
+  let prev = null;
+
+  while (current) {
+    const next = current.next;
+    current.next = prev;
+    prev = current;
+    current = next;
+  }
+
+  return prev;
+}
+
+// 첫 번째 풀이
 function reverseList(head: ListNode | null): ListNode | null {
   if (!head) return null;
 
