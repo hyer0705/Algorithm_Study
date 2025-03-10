@@ -12,6 +12,19 @@
  * }
  */
 
+// 두번째 풀이
+function lowestCommonAncestor(root: TreeNode | null, p: TreeNode | null, q: TreeNode | null): TreeNode | null {
+  if (!root || root === p || root === q) return root;
+
+  const left = lowestCommonAncestor(root.left, p, q);
+  const right = lowestCommonAncestor(root.right, p, q);
+
+  if (left && right) return root;
+
+  return left || right;
+}
+
+// 첫 번째 풀이
 function lowestCommonAncestor(root: TreeNode | null, p: TreeNode | null, q: TreeNode | null): TreeNode | null {
   const dfs = (node: TreeNode | null, target: TreeNode | null, ancestors: TreeNode[]): boolean => {
     if (node === null) return false;
