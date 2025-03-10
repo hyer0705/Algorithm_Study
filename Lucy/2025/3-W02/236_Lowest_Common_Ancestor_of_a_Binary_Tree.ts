@@ -33,7 +33,7 @@ function lowestCommonAncestor(root: TreeNode | null, p: TreeNode | null, q: Tree
   dfs(root, p, pAncestors);
   dfs(root, q, qAncestors);
 
-  const lowestCommonAncestor: TreeNode | null = pAncestors.filter((ancestor) => qAncestors.includes(ancestor)).at(-1);
+  const commonAncestor: TreeNode | null = pAncestors.filter((ancestor) => qAncestors.includes(ancestor)).at(-1);
 
-  return lowestCommonAncestor;
+  return commonAncestor;
 }
