@@ -13,7 +13,7 @@
  */
 
 function goodNodes(root: TreeNode | null): number {
-  if (!root) return 1;
+  if (!root) return 0;
 
   const traverse = (node: TreeNode | null, currentMaxValue: number): void => {
     if (!node) return;
