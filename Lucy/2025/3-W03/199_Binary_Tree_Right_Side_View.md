@@ -2,7 +2,7 @@
 
 ## 문제 정보
 
-- URL: https://leetcode.com/problems/binary-tree-right-side-view/description/?envType=study-plan-v2&envId=leetcode-75
+- URL: [199. Binary Tree Right Side View 문제 풀러가기](https://leetcode.com/problems/binary-tree-right-side-view/description/?envType=study-plan-v2&envId=leetcode-75)
 - LEVEL: Medium
 - TOPICS: Tree, Depth-First Search, Breadth-First Search, Binary Tree
 
