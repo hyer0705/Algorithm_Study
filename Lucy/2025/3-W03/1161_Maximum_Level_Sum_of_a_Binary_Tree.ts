@@ -67,10 +67,10 @@ function maxLevelSum(root: TreeNode | null): number {
     if (node.right) queue.push([node.right, level + 1]);
   }
 
-  const maxSums = Math.max(...levelSums);
+  const maxSum = Math.max(...levelSums);
   for (let i = 0; i < levelSums.length; i++) {
     const currentSums = levelSums[i];
-    if (maxSums === currentSums) return i + 1;
+    if (maxSum === currentSums) return i + 1;
   }
 
   return -1;
