@@ -70,8 +70,6 @@ class MinHeap {
 }
 
 function solution(n, paths, gates, summits) {
-  var answer = [];
-
   const gateSet = new Set(gates);
   const summitSet = new Set(summits);
 
