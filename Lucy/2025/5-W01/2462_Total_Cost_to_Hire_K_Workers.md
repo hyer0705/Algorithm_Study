@@ -71,3 +71,4 @@ ChatGPT와 대화를 통해 구현 전략(Heap, Two Pointer, 보충 시점/조�
 ## 참고 링크
 
 - [2462. Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers/?envType=study-plan-v2&envId=leetcode-75)
+- [@datastructures-js/priority-queue 문서](https://www.npmjs.com/package/@datastructures-js/priority-queue#constructor)
