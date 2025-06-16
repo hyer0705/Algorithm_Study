@@ -1,4 +1,4 @@
-// 6ms
+// 6ms 소요
 function minDistance(word1: string, word2: string): number {
   // word1 혹은 word2가 빈 문자열인 경우: 다른 문자열의 길이만큼 작업 필요
   if (word1.length === 0) return word2.length;
